@@ -18,7 +18,7 @@
     border-radius: 50%;
 }
 
-.gradient {
+.gradient, .organization {
     background: linear-gradient(120deg,#2c2c31,#000000);
     color: #fff;
 }
@@ -30,3 +30,4 @@ a {
 a:hover {
     color: gray;
 }
+
