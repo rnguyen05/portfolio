@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<!-- <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Full Stack Web Developer">
@@ -12,7 +12,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/bootstrap/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-</head>
+</head> -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Full Stack Web Developer">
+        <title>Home - Ngoc Nguyen</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+            crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    </head>
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar bg-dark">
@@ -34,14 +47,54 @@
             <div class="container">
                 <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
                 <div class="about-me">
-                    <p>Hello! I am <strong>Ngoc Nguyen</strong>. I'm a Junior Software Engineer. I love data-driven design. I love challenges in programming complex algorithms. I can build entire apps from scratch or optimize existing apps. I am a full stack problem solver. I enjoy learning new technologies. I love to write code. I graduated with a Bachelor Degree in Computer Science. I'm certified in Full Stack Web Development. I am very strong in coding, quick solutions when issues arise. I was an Oracle Developer which will be extremely helpful for Software Development.</p></div>
+                    <p>Hello! I am <strong>Ngoc Nguyen</strong>. I'm a Software Engineer. I graduated with a Bachelor Degree in Computer Science. I'm certified in Full Stack Web Development. I love data-driven design and challenges in programming complex algorithms. I can build entire apps from scratch or optimize existing apps. I am a full stack problem solver who enjoys learning new technologies. I am very strong in coding with the ability to develop quick solutions when issues arise. I was an Oracle Developer which will be extremely helpful for Software Development.</p>
+                </div>
             </div>
         </section>
-        <section class="portfolio-block photography">
-            <div class="container">
+        <section class="portfolio-block projects compact-grid photography">
+            <div class="container ">
+                <div class="heading ">
+                    <h2>Projects</h2>
+                </div>
                 <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://friendfinder-052018.herokuapp.com/survey" target="blank"><img class="img-fluid image" src="assets/img/nature/friendfinder.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://rnguyen05.github.io/GifTastic/" target="blank"><img class="img-fluid image" src="assets/img/nature/gifanatic.jpg"></a></div>
+                        
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a href="https://528491.github.io/Project-1/" target="_blank">
+                            <img class="img-fluid image" src="assets/img/nature/project1.jpg">
+                            <span class="description">
+                                <span class="description-heading">View Site</span>
+                                <span class="description-body">HTML, CSS, Bootstrap, Javascript, JQuery, Facebook API, Google API, Firebase</span>
+                            </span>
+                        </a>
+                        <a href="https://github.com/528491/Project-1/" target="_blank">
+                            <span class="description">
+                                    <span class="description-heading">Source Code on Github</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a href="https://arcane-sands-87123.herokuapp.com/" target="_blank">
+                            <img class="img-fluid image" src="assets/img/nature/project2.jpg">
+                            <span class="description">
+                                <span class="description-heading">View Site</span>
+                                <span class="description-body">Node.js, Express.js, Passport.js, Bcrypt, Sequelize, Mysql, Google API, JawDB, Heroku, MVC Model</span>
+                            </span>
+                        </a>
+                        <a href="https://github.com/528491/Project-2" target="_blank">
+                            <span class="description">
+                                    <span class="description-heading">Source Code on Github</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    
+                    <!-- <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://528491.github.io/Project-1/" target="_blank"><img class="img-fluid image" src="assets/img/nature/friendfinder.jpg"></a></div> -->
+                    <!-- <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a href="https://rnguyen05.github.io/GifTastic/" target="blank">
+                            <img class="img-fluid image" src="assets/img/nature/gifanatic.jpg">
+                        </a>
+                    </div> -->
+
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="https://rnguyen05.github.io/Hangman-Game/" target="blank"><img class="img-fluid image" src="assets/img/nature/hangman80style.jpg"></a></div>
                 </div>
             </div>
@@ -121,7 +174,7 @@
     </section>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a href="projects.html">Projects</a></div>
+            <div class="links"><a href="resume.html">About me</a><a href="contact.html">Contact me</a><a href="projects.html">Projects</a></div>
             <div class="social-icons"><a href="https://github.com/rnguyen05"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/ngoc-nguyen-88318b30/"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://stackoverflow.com/users/8949618/ryan-nguyen"><i class="fab fa-stack-overflow"></i></a>
