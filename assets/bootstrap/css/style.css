@@ -31,5 +31,10 @@ a:hover {
     color: gray;
 }
 
+.projectImage {
+    width:100%;
+    height: 100%;
+}
+
 
 
